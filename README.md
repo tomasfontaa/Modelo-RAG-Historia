@@ -15,11 +15,11 @@ El sistema procesa un PDF con apuntes de Historia de España (2º de Bachillerat
 
 ## Estructura del proyecto
 
-/practicaFinal_IAG.ipynb       # Notebook principal con la implementación completa
+/practicaFinal_IAG.ipynb       Notebook principal con la implementación completa
 
-/temas_historia/               # Contiene los temas segmentados en archivos TXT
+/temas_historia/               Contiene los temas segmentados en archivos TXT
 
-/historia_index/               # Almacena el índice vectorial para búsquedas rápidas
+/historia_index/               Almacena el índice vectorial para búsquedas rápidas
 
 ## Requisitos
 
