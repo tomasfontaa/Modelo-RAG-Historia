@@ -28,13 +28,15 @@ Google Colab: Entorno de desarrollo y experimentación
 🚀 Instalación y uso
 
 1. Instalar dependencias:
-   ´´´bash
+   ```bash
    pip install PyPDF2 llama-index llama-index-embeddings-openai
    ```
+   
 2. Configurar API key de OpenAI:
-   ´´´bash
+   ```bash
    export OPENAI_API_KEY="tu-api-key-aqui"
    ```
+   
 3. Ejecutar el notebook:
    - Abrir practicaFinal_IAG.ipynb en Google Colab o Jupyter Notebook
    - Ejecutar todas las celdas en orden
@@ -45,9 +47,13 @@ Google Colab: Entorno de desarrollo y experimentación
 El sistema permite:
 
 ✅ Procesar automáticamente apuntes en PDF
+
 ✅ Segmentar contenido por temas mediante chunking semántico
+
 ✅ Generar embeddings vectoriales para búsqueda por similitud
+
 ✅ Responder preguntas con contexto específico y preciso
+
 ✅ Reconocer cuando no tiene información suficiente
 
 ## 👥 Autores
