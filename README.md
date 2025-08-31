@@ -1,4 +1,4 @@
-# Modelo RAG para Consultas sobre Historia de España - 2º Bachillerato
+# Modelo RAG para Consultas sobre Historia de España
 
 ## 📋 Contexto
 
@@ -22,7 +22,7 @@ Crear un asistente educativo capaz de responder preguntas específicas sobre His
 ## 📂 Estructura del proyecto
 
 ```
-├── /practicaFinal_IAG.ipynb       # Notebook principal con la implementación completa
+├── /modelo_RAG.ipynb       # Notebook principal con la implementación completa
 ├── /apuntes.pdf                   # Documento original con los apuntes
 └── /README.md                     # Este archivo
 ```
@@ -41,7 +41,7 @@ Crear un asistente educativo capaz de responder preguntas específicas sobre His
    ```
    
 3. Ejecutar el notebook:
-   - Abrir practicaFinal_IAG.ipynb en Google Colab o Jupyter Notebook
+   - Abrir ```modelo_RAG.ipynb``` en Google Colab o Jupyter Notebook
    - Ejecutar todas las celdas en orden
      
 
