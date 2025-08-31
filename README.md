@@ -1,45 +1,57 @@
-# Modelo RAG para Consultas sobre Historia de España
+# Modelo RAG para Consultas sobre Historia de España - 2º Bachillerato
 
-Este proyecto implementa un sistema RAG (Retrieval-Augmented Generation) para responder preguntas sobre Historia de España utilizando documentos académicos como fuente de información.
+## 📋 Contexto
 
-## Descripción
+Desarrollo de un sistema de Retrieval-Augmented Generation (RAG) para responder preguntas sobre el temario de Historia de España de 2º de Bachillerato. El sistema procesa apuntes académicos, genera embeddings semánticos y permite consultas contextualizadas usando modelos de OpenAI.
 
-El sistema procesa un PDF con apuntes de Historia de España (2º de Bachillerato) y permite realizar consultas específicas sobre los temas contenidos en el documento, proporcionando respuestas precisas basadas en el contenido original.
 
-## Características principales
+## 🎯 Objetivo
 
-- Segmentación semántica automática: Divide el documento PDF en 18 temas históricos distintos.
-- Generación de embeddings: Utiliza el modelo text-embedding-3-small de OpenAI para crear representaciones vectoriales del contenido.
-- Búsqueda semántica: Recupera información relevante basada en el significado de la consulta.
-- Respuestas contextuales: Genera respuestas utilizando el modelo gpt-3.5-turbo de OpenAI, limitándose estrictamente al contenido de los documentos.
+Crear un asistente educativo capaz de responder preguntas específicas sobre Historia de España utilizando únicamente la información contenida en los apuntes oficiales del curso, con precisión académica y contextualización adecuada.
 
-## Estructura del proyecto
+  
+## 🛠️ Tecnologías utilizadas
 
-/practicaFinal_IAG.ipynb       Notebook principal con la implementación completa
+Python 3.11: Lenguaje de programación principal
+LlamaIndex: Framework para sistemas RAG
+OpenAI GPT-3.5-turbo: Modelo generativo para respuestas
+OpenAI text-embedding-3-small: Modelo de embeddings para representación semántica
+PyPDF2: Procesamiento y extracción de texto desde PDF
+Google Colab: Entorno de desarrollo y experimentación
 
-/temas_historia/               Contiene los temas segmentados en archivos TXT
+## 📂 Estructura del proyecto
 
-/historia_index/               Almacena el índice vectorial para búsquedas rápidas
+├── /practicaFinal_IAG.ipynb       # Notebook principal con la implementación completa
+├── /apuntes.pdf                   # Documento original con los apuntes
+└── /README.md                     # Este archivo
 
-## Requisitos
+🚀 Instalación y uso
 
-Para ejecutar este proyecto necesitarás:
+1. Instalar dependencias:
+   ´´´bash
+   pip install PyPDF2 llama-index llama-index-embeddings-openai
+   ```
+2. Configurar API key de OpenAI:
+   ´´´bash
+   export OPENAI_API_KEY="tu-api-key-aqui"
+   ```
+3. Ejecutar el notebook:
+   - Abrir practicaFinal_IAG.ipynb en Google Colab o Jupyter Notebook
+   - Ejecutar todas las celdas en orden
+     
 
-- Python
-- Las siguientes librerías Python:
-  - PyPDF2
-  - llama-index
-  - llama-index-embeddings-openai
-    
-- Una API key de OpenAI (configurada como variable de entorno OPENAI_API_KEY)
+## 📊 Resultados
 
-## Uso
+El sistema permite:
 
-1. Carga el documento PDF original (apuntes.pdf)
-2. El notebook procesará automáticamente el contenido, dividiéndolo en temas
-3. Genera los embeddings y construye el índice vectorial
-4. Realiza consultas como:
-  - "¿Qué consecuencias tuvo el Sexenio Revolucionario?"
-  - "Dime un resumen de la dictadura de Francisco Franco"
+✅ Procesar automáticamente apuntes en PDF
+✅ Segmentar contenido por temas mediante chunking semántico
+✅ Generar embeddings vectoriales para búsqueda por similitud
+✅ Responder preguntas con contexto específico y preciso
+✅ Reconocer cuando no tiene información suficiente
 
-El sistema está configurado para responder únicamente basándose en el contenido de los documentos, evitando especulaciones o información externa.
+## 👥 Autores
+
+- Tomás Fonta
+- Carlos Sainz
+- Gonzalo Villar
