@@ -21,11 +21,12 @@ Google Colab: Entorno de desarrollo y experimentación
 
 ## 📂 Estructura del proyecto
 
+```
 ├── /practicaFinal_IAG.ipynb       # Notebook principal con la implementación completa
-
 ├── /apuntes.pdf                   # Documento original con los apuntes
-
 └── /README.md                     # Este archivo
+```
+
 
 🚀 Instalación y uso
 
