@@ -12,12 +12,12 @@ Crear un asistente educativo capaz de responder preguntas específicas sobre His
   
 ## 🛠️ Tecnologías utilizadas
 
-Python 3.11: Lenguaje de programación principal
-LlamaIndex: Framework para sistemas RAG
-OpenAI GPT-3.5-turbo: Modelo generativo para respuestas
-OpenAI text-embedding-3-small: Modelo de embeddings para representación semántica
-PyPDF2: Procesamiento y extracción de texto desde PDF
-Google Colab: Entorno de desarrollo y experimentación
+- Python 3.11: Lenguaje de programación principal
+- LlamaIndex: Framework para sistemas RAG
+- OpenAI GPT-3.5-turbo: Modelo generativo para respuestas
+- OpenAI text-embedding-3-small: Modelo de embeddings para representación semántica
+- PyPDF2: Procesamiento y extracción de texto desde PDF
+- Google Colab: Entorno de desarrollo y experimentación
 
 ## 📂 Estructura del proyecto
 
